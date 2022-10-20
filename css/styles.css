@@ -1,0 +1,61 @@
+@import url("reset.css");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.nav {
+    width: 10%;
+    height: 100vh;
+    float: left;
+    border: 2px solid black;
+}
+
+li {
+    text-transform: capitalize;
+}
+
+li a {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.nav ul li a{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.main {
+    width: 90%;
+    height: 100vh;
+    float: left;
+    border: 2px solid black;
+}
+
+h1 {
+    text-transform: capitalize;
+    font-size: 50px;
+}
+
+.footer {
+    clear: both;
+    width: 100%;
+    padding: 10px;
+
+    text-align: center;
+    text-transform: capitalize;
+    
+    border: 2px solid black;
+}
