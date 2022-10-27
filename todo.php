@@ -37,9 +37,10 @@
 
         <ul id="list">
 
-        <li class="checked">item 1</li>
-        <li>item 2</li>
+        <li>item 1</li>
+        <li class="checked">item 2</li>
         <li>item 3</li>
+        <li>item 4</li>
 
         </ul>
 
@@ -56,8 +57,6 @@
             closebtn();
 
             hideitem();
-
-            hide();
 
             checkmrk();
 

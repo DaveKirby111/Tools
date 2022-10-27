@@ -14,7 +14,7 @@ function closebtn() {
 
 function hideitem() {
     var close = document.getElementsByClassName("close");
-    var i;
+    var i = document.getElementsByTagName("li");
     for (i = 0; i < close.length; i++) {
         close[i].onclick = function() {
             var div = this.parentElement;
