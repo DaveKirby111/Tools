@@ -16,7 +16,7 @@ function hideitem() {
     var close = document.getElementsByClassName("close");
     var i;
     for (i = 0; i < close.length; i++) {
-        close[i].onclick = hideitem(); {
+        close[i].onclick = function() {
             var div = this.parentElement;
             div.style.display = "none";
         }
@@ -26,9 +26,9 @@ function hideitem() {
 function checkmrk() {
     var list = document.querySelector('ul');
     list.addEventListener('click', function(ev) {
-        if (ev.target.tagName === 'li') {
-            ev.target.classList.toggle('checked');
-        }
+    if (ev.target.tagName === 'li') {
+    ev.target.classList.toggle('checked');
+    }
     }, false);
 }
 

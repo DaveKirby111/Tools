@@ -11,7 +11,7 @@
 
         <div class="header">
 
-            <h1>to-do list</h1>
+            <h1>to do list</h1>
 
         </div>
 
@@ -31,7 +31,6 @@
         <div class="content">
 
         <div id="add">
-        <h2>To Do List</h2>
         <input type="text" id="input" placeholder="Add Item...">
         <span onclick="newElement()" class="addbtn">Add</span>
         </div>
